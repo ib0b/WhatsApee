@@ -7,7 +7,19 @@ This project is heavily inspired by [bruno222/whatsapp-web-bot](https://github.c
 A good substitute till WhatsApp releases their API  to the public.
 However this code is not perfect for production it has a few bugs.
 
-# How to use it?
+
+# Table of Contents
+1. [How to use it](#toc1)
+2. [Bot Logic](#toc2)
+3. [FAQ](#toc3)
+4. [Examples](#toc4)
+5. [Todo](#toc5)
+
+## Example
+# Example 2
+## Third Example
+
+# How to use it?<a name="toc1"></a>
 
  - Clone the git. 
  -  Install the latest npm and nodeJS for your platform. 
@@ -19,20 +31,26 @@ However this code is not perfect for production it has a few bugs.
  - Signin using QR code and see the bot run your logic, stored in
    **logic.js**
 
-# Bot Logic
+# Bot Logic<a name="toc2"></a>
  All code goes into the logic.js file
  WhatsApee has two function that you can use
  
- ```WhatsAppe.start( receiver callback)```  sets the callback for the message handler .It should take three arguments
+ ```Javascript 
+ WhatsApee.start( receiver callback)
+ ```   
+ sets the callback for the message handler .It should take three arguments
  - message : body of message
  - chatElem : chat div element which is used as an identifier
  - title : chat title 
  
-  ```WhatsAppe.send(chat Elem is like chat id , message to send goes here)```  sends message to the chosen element .It takes two arguments
+  ```Javasript 
+ WhatsApee.send(chat Elem is like chat id , message to send goes here);;
+  ```  
+  sends message to the chosen element .It takes two arguments
  - chatElem : chat div element which is used as an identifier
  - message : body of message
  ## Example implementation
- ```
+ ``` Javascript
 const path = require('path')
 const WhatsApee = require(path.join(__dirname, 'WhatsApee.js'))
 //WhatsAppe.start( receiver callback)
@@ -50,7 +68,7 @@ function receiver (message,chatElem,title) {
 }
 ```
 
-# FAQ
+# FAQ<a name="toc3"></a>
 
 #### So it's possible to create a Bot in Whatsapp Web?
 
@@ -98,9 +116,9 @@ Yes, there are.
 1. Your friend can't send `@HELP` followed of any other message really fast. This Bot only reads the last message. It's a buggy (that can be fixed)
 
 Feel free to fix and PR it. I will probably not touch in this public repo anymore.
-# Examples
+# Examples<a name="toc3"></a>
 - [WhatsApeeBot](https://github.com/updatesvc/WhatsApeeBot)
-# Todo
+# Todo<a name="toc4"></a>
 - better message detection
 - diagflow AI bot
 - image upload capabilities
