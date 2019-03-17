@@ -1,3 +1,4 @@
+
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)
 # WhatsApee [![Node version](https://img.shields.io/node/v/electron.svg?style=flat)](http://nodejs.org/download/) 
 Whatsapee is a web based bot for Whatsapp.
@@ -21,6 +22,7 @@ However this code is not perfect for production it has a few bugs.
 # Bot Logic
  All code goes into the logic.js file
  WhatsApee has two function that you can use
+ 
  ```WhatsAppe.start( receiver callback)```  sets the callback for the message handler .It should take three arguments
  - message : body of message
  - chatElem : chat div element which is used as an identifier
@@ -96,6 +98,8 @@ Yes, there are.
 1. Your friend can't send `@HELP` followed of any other message really fast. This Bot only reads the last message. It's a buggy (that can be fixed)
 
 Feel free to fix and PR it. I will probably not touch in this public repo anymore.
+# Examples
+- [WhatsApeeBot](https://github.com/updatesvc/WhatsApeeBot)
 # Todo
 - better message detection
 - diagflow AI bot
