@@ -119,10 +119,11 @@ Feel free to fix and PR it. I will probably not touch in this public repo anymor
 # Examples
 - [WhatsApeeBot](https://github.com/updatesvc/WhatsApeeBot)
 <a name="toc4"></a>
-# Todo
+# TODO
 - better message detection
 - diagflow AI bot
 - image upload capabilities
+- add licensing info
 
 Made by [@updatesvc](https://github.com/updatesvc/WhatsApee)
 
