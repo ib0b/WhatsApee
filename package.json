@@ -1,0 +1,16 @@
+{
+  "author": "",
+  "name": "WhatsApee",
+  "version": "1.0.0",
+  "description": "A bot for whatsapp",
+  "main": "index.js",
+  "dependencies": {
+    "electron": "^2.0.6"
+    
+  },
+  "scripts": {    
+    "start": "electron ."    
+  },
+  "license": "ISC"
+ 
+}
