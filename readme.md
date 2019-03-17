@@ -15,11 +15,9 @@ However this code is not perfect for production it has a few bugs.
 4. [Examples](#toc4)
 5. [Todo](#toc5)
 
-## Example
-# Example 2
-## Third Example
 
-# How to use it?<a name="toc1"></a>
+<a name="toc1"></a>
+# How to use it?
 
  - Clone the git. 
  -  Install the latest npm and nodeJS for your platform. 
@@ -31,7 +29,8 @@ However this code is not perfect for production it has a few bugs.
  - Signin using QR code and see the bot run your logic, stored in
    **logic.js**
 
-# Bot Logic<a name="toc2"></a>
+<a name="toc2"></a>
+# Bot Logic
  All code goes into the logic.js file
  WhatsApee has two function that you can use
  
@@ -67,8 +66,8 @@ function receiver (message,chatElem,title) {
       
 }
 ```
-
-# FAQ<a name="toc3"></a>
+<a name="toc3"></a>
+# FAQ
 
 #### So it's possible to create a Bot in Whatsapp Web?
 
@@ -116,9 +115,11 @@ Yes, there are.
 1. Your friend can't send `@HELP` followed of any other message really fast. This Bot only reads the last message. It's a buggy (that can be fixed)
 
 Feel free to fix and PR it. I will probably not touch in this public repo anymore.
-# Examples<a name="toc3"></a>
+<a name="toc3"></a>
+# Examples
 - [WhatsApeeBot](https://github.com/updatesvc/WhatsApeeBot)
-# Todo<a name="toc4"></a>
+<a name="toc4"></a>
+# Todo
 - better message detection
 - diagflow AI bot
 - image upload capabilities
