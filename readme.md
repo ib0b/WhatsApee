@@ -1,6 +1,6 @@
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com) ![GitHub](https://img.shields.io/github/license/updatesvc/WhatsApee.svg?style=for-the-badge)
-# WhatsApee [![Node version](https://img.shields.io/node/v/electron.svg?style=flat)](http://nodejs.org/) 
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com) 
+# WhatsApee [![Node version](https://img.shields.io/node/v/electron.svg?style=for-the-badge)](http://nodejs.org/) ![GitHub](https://img.shields.io/github/license/updatesvc/WhatsApee.svg?style=for-the-badge)
 Whatsapee is a web based bot for Whatsapp.
 This project is heavily inspired by [bruno222/whatsapp-web-bot](https://github.com/bruno222/whatsapp-web-bot)
 
