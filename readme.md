@@ -134,7 +134,7 @@ Feel free to fix and PR it. I will probably not touch in this public repo anymor
 # Known Issues
 - Does not work with business accounts
 
-"This project is licensed under the terms of the MIT license." [![GitHub](https://img.shields.io/github/license/updatesvc/WhatsApee.svg?style=for-the-badge)](https://github.com/updatesvc/WhatsApee/license.md)
+"This project is licensed under the terms of the MIT license." [![GitHub](https://img.shields.io/github/license/updatesvc/WhatsApee.svg?style=for-the-badge)](https://github.com/updatesvc/WhatsApee/blob/master/license.md)
 
 Made by [@updatesvc](https://github.com/updatesvc/WhatsApee)
 
