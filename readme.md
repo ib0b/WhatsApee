@@ -1,6 +1,6 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)
-# WhatsApee [![Node version](https://img.shields.io/node/v/electron.svg?style=flat)](http://nodejs.org/download/) 
+# WhatsApee [![Node version](https://img.shields.io/node/v/electron.svg?style=flat)](http://nodejs.org/) 
 Whatsapee is a web based bot for Whatsapp.
 This project is heavily inspired by [bruno222/whatsapp-web-bot](https://github.com/bruno222/whatsapp-web-bot)
 
@@ -14,12 +14,13 @@ However this code is not perfect for production it has a few bugs.
 3. [FAQ](#toc3)
 4. [Examples](#toc4)
 5. [Todo](#toc5)
+6. [Known Issues](#known-issues)
 
 
 <a name="toc1"></a>
 # How to use it?
 
- - Clone the git. 
+ - Clone the repo. 
  -  Install the latest npm and nodeJS for your platform. 
  - Then in repo folder run the following commands 
      ```npm install```   
@@ -29,23 +30,28 @@ However this code is not perfect for production it has a few bugs.
  - Signin using QR code and see the bot run your logic, stored in
    **logic.js**
 
+## Default logic
+Have a friend text you this commands:
+**@help** or **hi bot**
+
 <a name="toc2"></a>
 # Bot Logic
  All code goes into the logic.js file
  WhatsApee has two function that you can use
  
  ```Javascript 
- WhatsApee.start( receiver callback)
+ WhatsApee.start( receiver callback); 
  ```   
- sets the callback for the message handler .It should take three arguments
+ sets the callback for the message handler.
+ It should take three arguments :
  - message : body of message
  - chatElem : chat div element which is used as an identifier
  - title : chat title 
  
-  ```Javasript 
- WhatsApee.send(chat Elem is like chat id , message to send goes here);;
+  ```Javascript 
+ WhatsApee.send(chat Elem is like chat id , message to send goes here);
   ```  
-  sends message to the chosen element .It takes two arguments
+  sends message to the chosen element .It takes two arguments :
  - chatElem : chat div element which is used as an identifier
  - message : body of message
  ## Example implementation
@@ -124,6 +130,12 @@ Feel free to fix and PR it. I will probably not touch in this public repo anymor
 - diagflow AI bot
 - image upload capabilities
 - add licensing info
+- add support for business accounts
+
+# Known Issues
+- Does not work with business accounts
+
+"This project is licensed under the terms of the MIT license."
 
 Made by [@updatesvc](https://github.com/updatesvc/WhatsApee)
 
