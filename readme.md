@@ -1,5 +1,5 @@
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com) ![GitHub](https://img.shields.io/github/license/updatesvc/WhatsApee.svg?style=for-the-badge)
 # WhatsApee [![Node version](https://img.shields.io/node/v/electron.svg?style=flat)](http://nodejs.org/) 
 Whatsapee is a web based bot for Whatsapp.
 This project is heavily inspired by [bruno222/whatsapp-web-bot](https://github.com/bruno222/whatsapp-web-bot)
@@ -129,13 +129,12 @@ Feel free to fix and PR it. I will probably not touch in this public repo anymor
 - better message detection
 - diagflow AI bot
 - image upload capabilities
-- add licensing info
 - add support for business accounts
 
 # Known Issues
 - Does not work with business accounts
 
-"This project is licensed under the terms of the MIT license."
+"This project is licensed under the terms of the MIT license." [![GitHub](https://img.shields.io/github/license/updatesvc/WhatsApee.svg?style=for-the-badge)](https://github.com/updatesvc/WhatsApee/license.md)
 
 Made by [@updatesvc](https://github.com/updatesvc/WhatsApee)
 
