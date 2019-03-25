@@ -120,7 +120,7 @@ Yes, there are.
 
 1. Your friend can't send `@HELP` followed of any other message really fast. This Bot only reads the last message. It's a buggy (that can be fixed)
 
-Feel free to fix and PR it. I will probably not touch in this public repo anymore.
+Feel free to fix and PR it.
 <a name="toc3"></a>
 # Examples
 - [WhatsApeeBot](https://github.com/updatesvc/WhatsApeeBot)
@@ -133,6 +133,8 @@ Feel free to fix and PR it. I will probably not touch in this public repo anymor
 
 # Known Issues
 - Does not work with business accounts
+
+#### if you like it, starr it ⭐ 
 
 "This project is licensed under the terms of the MIT license." [![GitHub](https://img.shields.io/github/license/updatesvc/WhatsApee.svg?style=for-the-badge)](https://github.com/updatesvc/WhatsApee/blob/master/license.md)
 
