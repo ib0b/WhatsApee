@@ -89,7 +89,7 @@ Well, you're right: Whatsapp will ban you forever if they discovery you are runn
 
 **I can't guarantee that you are not getting banned in a long term using this Bot. I really don't think so, but I can't guarantee.**
 
-#### Bullshit! I got banned using yowsup!
+#### BS! I got banned using yowsup!
 
 Hold on mate, there are kids here.
 
