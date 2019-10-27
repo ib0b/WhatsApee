@@ -5,12 +5,10 @@
   "description": "A bot for whatsapp",
   "main": "index.js",
   "dependencies": {
-    "electron": "^2.0.6"
-    
+    "electron": "^6.0.0"
   },
-  "scripts": {    
-    "start": "electron ."    
+  "scripts": {
+    "start": "electron ."
   },
   "license": "ISC"
- 
 }
