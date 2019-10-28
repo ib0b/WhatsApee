@@ -23,6 +23,7 @@ However this code is not perfect for production it has a few bugs.
  - Clone the repo. 
  -  Install the latest npm and nodeJS for your platform. 
  - Then in repo folder run the following commands 
+ 
      ```npm install```   
    then run   
    ```npm start```
