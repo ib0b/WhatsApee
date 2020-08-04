@@ -5,7 +5,7 @@
   "description": "A bot for whatsapp",
   "main": "index.js",
   "dependencies": {
-    "electron": "^6.0.0"
+    "electron": "^7.2.4"
   },
   "scripts": {
     "start": "electron ."
